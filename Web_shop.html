@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="web_shop.css">
+<link rel="stylesheet" href="css\all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
+<script src="json1.js"></script>
+
+<style>
+
+</style>
+<body>
+<div class="site">  
+   <nav id="side-bar" class="side-bar middle small close"> <!--NAV BAR-->
+      <h2 class="logo">FASHION WEAR</h2>
+      <button id="home-btn" class="home-button">Home</button>
+        <div class="nav-bar" id="nav-bar">
+          <a>Shirts<i class="arrow"></i></a>
+          <div class="dropdown">
+                <a href="#image-header"><i class="arrow-small"></i>Business shirts</a>
+                <a href="#image-header"><i class="arrow-small"></i>Casual shirts</a>
+                <a href="#image-header"><i class="arrow-small"></i>T-shirts</a>
+          </div> 
+          <a>Dresses<i class="arrow"></i></a>
+          <div class="dropdown">
+                <a href="#image-header"><i class="arrow-small"></i>Summer dresses</a>
+                <a href="#image-header"><i class="arrow-small"></i>Wedding dresses</a>
+                <a href="#image-header"><i class="arrow-small"></i>Casual dresses</a>
+          </div> 
+          <a>Jeans<i class="arrow"></i></a>
+          <div class="dropdown">
+               <a href="#image-header"><i class="arrow-small"></i>Ripped jeans</a>
+               <a href="#image-header"><i class="arrow-small"></i>Blue jeans</a>
+               <a href="#image-header"><i class="arrow-small"></i>Black jeans</a>
+          </div>      
+          <a>Jacket<i class="arrow"></i></a>
+          <div class="dropdown">
+              <a href="#image-header"><i class="arrow-small"></i>Leather jackets</a>
+              <a href="#image-header"><i class="arrow-small"></i>Winter jackets</a>
+              
+          </div>
+          <a>Gym<i class="arrow"></i></a>
+          <div class="dropdown">
+                  <a href="#image-header"><i class="arrow-small"></i>Gym wear</a>
+                  <a href="#image-header"><i class="arrow-small"></i>Equipment</a>
+                 
+          </div>          
+          <a>Shoes<i class="arrow"></i></a>
+          <div class="dropdown">
+                  <a href="#image-header"><i class="arrow-small"></i>Women's shoes</a>
+                  <a href="#image-header"><i class="arrow-small"></i>Men's shoes</a>
+                  <a href="#image-header"><i class="arrow-small"></i>Children's shoes</a>
+          </div> 
+          <a>Perfumes<i class="arrow"></i></a>
+          <div class="dropdown" id="btn7">
+                     <a href="#image-header"><i class="arrow-small"></i>Women's perfumes</a>
+                     <a href="#image-header"><i class="arrow-small"></i>Men's perfumes</a>
+                   
+          </div>
+        </div>
+        <div class="side-bottom-container">
+          <a href="#contact">Contact</a> 
+          <a href="#subscribe">Subscribe</a>    
+        </div>
+    </nav>
+  <div class="main">                              <!--MAIN BAR---->
+      <div class="small-menu-container">                      
+          <p class="hamburger"><i>&#9776;</i></p>
+          <p class="close-btn fa fa-times"><span></span></p>
+        </div>       
+     <div id="header-image-container" class="header-image-container">
+        <img src="default_images\jeans.jpg" alt="image1">
+        <div class="heading-text">
+           <h2 class="header-first-line medium small">New arrivals</h2>
+           <h2 class="header-second-line medium small">COLLECTION 2021</h2>
+        </div>
+     </div>
+
+  
+    
+     <div id = "image-header" style="font-size: 18px; padding: 25px 15px 15px 15px; color: rgb(80, 75, 75);;">Articles</div>
+      
+      <div class="json-gallery" id="json"></div>
+      <div class="gallery-container" id="container"> 
+         <div class="gallery-image-container medium small">    
+           <img src="default_images\laura-chouette-n5_2Emu1N8o-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Perfumes<br><b>New</b></p>
+         </div>
+         <div class="gallery-image-container medium small"> 
+            <img src="default_images\derick-mckinney-2I0e38YkR1A-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+            <p>Shirts<br><b>New</b></p>
+         </div>
+         <div class="gallery-image-container medium small">
+           <img src="default_images\meta-studio-35-eeR5cMQzXgs-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Dresses<br><b>New</b></p>
+         </div>
+         <div class="gallery-image-container medium small">
+           <img src="default_images\george-gvasalia-dMOrvxNBeKg-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Jeans<br><b>New</b></p>
+         </div>
+         <div class="gallery-image-container medium small">
+           <img src="default_images\hamid-tajik-Fmxv-bGENkU-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Jackets<br><b>New</b></p>
+         </div>
+         <div class="gallery-image-container medium small">
+           <img src="default_images\pesce-huang-RWCyUDnSg5Y-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Shoes<br><b>New</b></p>
+         </div>
+         <div class="gallery-image-container medium small">
+           <img src="default_images\john-fornander-d2LQwlZXylk-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Gym<br><b>New</b></p>
+         </div>   
+         <div class="gallery-image-container medium small">
+           <img src="default_images\mark-chan-dZuF-hWTH5g-unsplash.jpg" alt="jeans" style="max-width: 100%;">
+           <p>Perfumes<br><b>New</b></p>
+         </div>
+      </div> 
+      
+      <div id="no-images" class="no-images"></div>
+
+      <div class="pagination-container">
+        <div id="pagination" class="pagination">
+          <a href="#image-header">&laquo;</a>
+          <a href="#image-header" class="active">1</a>
+          <a href="#image-header">2</a>
+          <a href="#image-header">3</a>
+          <a href="#image-header">4</a>
+          <a href="#image-header">5</a>
+          <a href="#image-header">6</a>
+          <a href="#image-header">&raquo;</a>
+        </div>
+      </div>
+
+      <div class="form medium small">
+         <h1 id="subscribe" type="submit" style="padding: 30px 15px 5px 15px;">Subscribe</h1>
+         <form action="/action_page.php" target="_blank">
+            <label for="email">To get special offers and VIP treatment:</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter e-mail" required><br>
+            <button class="subscribe-button">Subscribe</button>
+         </form>
+       </div>
+       <footer class="footer">
+         <div id="contact" class="contact small">
+           <h3 style="margin-bottom: 10px;">Contact</h3>
+           <h5 style="margin-bottom: 0px;">Questions? Go ahead.</h5><br>
+           <form action="/action_page.php" target="_blank">
+              <input placeholder="Name" name="Name" required><br> 
+              <input placeholder="Email" name="Email" required><br> 
+              <input placeholder="Subject" name="Subject" required><br>
+              <input placeholder="Message" name="Message" required><br>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
+          <div class="about small">
+            <h3 style="margin-bottom: 0px;">About</h3><br>
+            <p><a href="#">About us</a></p><br>
+            <p> <a href="#">We're hiring</a></p><br>
+            <p><a href="#">Support</a></p><br>
+            <p><a href="#">Find store</a></p><br>
+            <p><a href="#">Shipment</a></p><br>
+            <p><a href="#">Payment</a></p><br>
+            <p><a href="#">Gift card</a></p><br>
+            <p><a href="#">Return</a></p><br>
+            <p><a href="#">Help</a></p><br>        
+          </div>
+
+          <div class="store small">
+            <h3>Store</h3>
+            <p>Company Name</p>
+            <p>ex@mail.com</p>
+            <p>0044123123</p>
+            <h3>We accept</h3>
+            <p>Amex</p>
+            <p>Credit Card</p>
+          </div>
+        </footer> 
+
+      </div>
+
+
+
+  </div>
+</div>
+
+<!-- End page content -->
+
+
+
+
+<script>
+
+document.querySelector(".hamburger").addEventListener("click", openNavBar);
+
+function openNavBar() {
+  document.getElementById("side-bar").classList.remove("close");
+  document.querySelector(".hamburger").style.display = "none";
+  document.querySelector(".close-btn").style.display = "block";
+}
+
+document.querySelector(".close-btn").addEventListener("click", closeNavBar);
+
+function closeNavBar() {
+  document.getElementById("side-bar").classList.add("close");
+  document.querySelector(".close-btn").style.display = "none";
+  document.querySelector(".hamburger").style.display = "block";
+}
+
+document.getElementById("nav-bar").addEventListener("click", callButtonFunction);
+
+function callButtonFunction () {                             // call function for dropdown
+  let x = document.getElementById("nav-bar");
+  let c = x.children;
+  let i;
+  for (i = 0; i < c.length; i = i + 2) {
+      if (event.target == c[i]) {
+        buttonFunction();
+      }
+  }
+  
+}
+
+function buttonFunction() {                      // function for dropdowns
+  let x = document.getElementById("nav-bar");
+  let c = x.children;
+  let i;
+
+  for (i = 0; i < c.length; i = i + 2) {            
+      if (event.target == c[i]) {
+        break;
+    }
+    
+  }
+    
+  if (c[i].nextElementSibling.className.indexOf(" open") > -1) {
+    c[i].nextElementSibling.className = c[i].nextElementSibling.className.replace(" open", "");
+  }
+    else {
+        c[i].nextElementSibling.className += " open";  
+    }
+    
+}
+
+document.addEventListener("click", activeBtnFunction);   
+        
+function activeBtnFunction () {                       // function for active button
+  let x = document.getElementById("nav-bar");
+  let y = x.querySelectorAll(".dropdown a");
+    for (let i = 0; i < y.length; i++) {
+      if (event.target == y[i]) { 
+        for (let j = 0; j < y.length; j++) {
+          y[j].className = y[j].className.replace("active-btn", "");
+
+        }
+      }
+     
+    }
+
+    for (let i = 0; i < y.length; i++) {
+      if (event.target == y[i]) {
+        y[i].classList.add("active-btn");
+
+        }
+      }
+         
+}
+
+document.getElementById("home-btn").addEventListener("click", homeBtnFunction);   // home button
+;
+function homeBtnFunction () {
+  window.location.reload(); 
+}
+
+
+document.getElementById("nav-bar").addEventListener("click", headingFunction);    // function for gallery image heading
+
+function headingFunction () {
+  let x = document.getElementById("nav-bar");
+  let y = x.querySelectorAll(".dropdown a");
+  
+  for (let i = 0; i < y.length; i++) {
+    if (event.target.lastChild.nodeValue == y[i].lastChild.nodeValue) {
+        document.getElementById("image-header").innerHTML = y[i].lastChild.nodeValue;
+    };  
+  }
+  
+}
+
+document.getElementById("pagination").addEventListener("click", paginationFunction);
+document.getElementById("nav-bar").addEventListener("click", paginationFunction);
+
+function paginationFunction(event) {                                            // function that controls pagination
+  let x = document.getElementById("pagination");
+  let w = document.getElementById("nav-bar");
+  let z = w.querySelectorAll(".dropdown a");
+  var arr;
+  let y = x.querySelector(".active");
+   
+  for (let i = 0; i < z.length; i++) {                                           // displaying pagination buttons
+    if (event.target == z[i]) {
+    document.querySelector(".pagination-container").style.display = "block";
+    }
+  }    
+  
+  
+    for (let i = 1; i < x.children.length - 1; i++) {            // setting active page
+      if (event.target == x.children[i]) {
+        for (let j = 1; j < x.children.length - 1; j++) {
+          x.children[j].className = "";
+          }         
+      }
+    }                                               
+
+    for (let i = 1; i < x.children.length - 1; i++) {                      
+      if (event.target == x.children[i]) {        
+        x.children[i].classList.add("active");
+      }
+    }
+
+    
+
+    if ((event.target == x.firstElementChild) && (y !== x.firstElementChild.nextElementSibling)) {   // previous pagination button
+      y.className = "";
+      y.previousElementSibling.classList.add("active");
+    }
+
+    if ((event.target == x.lastElementChild) && (y !== x.lastElementChild.previousElementSibling)) {   // next pagination button
+      y.className = "";
+      y.nextElementSibling.classList.add("active");
+    }
+        
+    for (let i = 0; i < z.length; i++) {              // setting default first page as active
+    if (event.target == z[i]) {
+      for (let i = 1; i < x.children.length - 1; i++) {
+        x.children[i].className = "";
+        }
+        x.firstElementChild.nextElementSibling.classList.add("active");  
+      }  
+      
+    }
+    
+    y = x.querySelector(".active");
+
+    jsonFunction();
+    let json = new jsonFunction();
+    
+
+
+    for (let i = 1; i < x.children.length - 1; i++) {                                          // disabling buttons of empty pages 
+        if (Math.ceil(json.arr.length/json.numPerPage) < x.children[i].firstChild.nodeValue) {
+          x.children[i].classList.add("disabled-page");
+        }
+    }
+    
+    if (y.nextElementSibling.className == "disabled-page") {  // disabling next button for empty page   
+      x.lastElementChild.classList.add("disabled-page");
+    } else {
+      x.lastElementChild.className = "";
+    }
+
+   
+ 
+}
+ 
+
+function jsonFunction() {                                // called by paginationFunction                               
+    let x = document.getElementById("image-header");
+    let activePage = document.getElementById("pagination").querySelector(".active").firstChild.nodeValue;
+    let arr = [];
+    let numPerPage = 8;          // number of images per page - optional
+    let pageLoopLength = (activePage * numPerPage);
+    let pageIteration = pageLoopLength - numPerPage;
+    let htmlString = "";
+    let pagination = document.getElementById("pagination");
+    
+        for (let i = 0; i < data.length; i++) {                  // making array by choosen condition
+          if (x.innerHTML == data[i].items) { 
+            arr.push(data[i]);      
+            }
+        }  
+
+      this.arr = arr;
+      this.numPerPage = numPerPage;               
+      
+      for (let i = pageIteration; (i < pageLoopLength) && (i < arr.length); i++) {       // sorting array items on pages
+         htmlString += `
+       <div class="gallery-image-container medium small">    
+         <img src=${arr[i].image} alt="jeans" style="max-width: 100%;">
+         <p>${arr[i].items}<br><b>${arr[i].price}</b></p>
+       </div>
+      `
+      }
+
+
+      
+      if (arr.length !== 0) {
+      document.querySelector(".gallery-container").style.display = "none";
+      document.getElementById("json").innerHTML = htmlString;
+    }  else {
+      document.getElementById("json").innerHTML = "";
+  }   
+     
+} 
+
+
+</script>   
+
+
+</body>    
+</html>
