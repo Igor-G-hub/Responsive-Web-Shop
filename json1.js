@@ -143,17 +143,17 @@ const data = [
     },
     {
     "items": "Casual dresses",
-    "image": "casual_dresses\\pexels-gantas-vaičiulėnas-5594249.jpg",
+    "image": "casual_dresses\\pexels-gantas-vaiciulenas-5594249.jpg",
      "price": "$23.99"
      },
         {
         "items": "Casual dresses",
-        "image": "casual_dresses\\pexels-gantas-vaičiulėnas-5601662.jpg",
+        "image": "casual_dresses\\pexels-gantas-vaiciulenas-5601662.jpg",
         "price": "$20.00"
         },
         {
         "items": "Casual dresses",
-        "image": "casual_dresses\\pexels-gantas-vaičiulėnas-6132285.jpg",
+        "image": "casual_dresses\\pexels-gantas-vaiciulenas-6132285.jpg",
         "price": "$26.99"
         },
         {
