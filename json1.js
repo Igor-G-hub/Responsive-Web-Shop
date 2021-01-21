@@ -175,11 +175,7 @@ const data = [
                     "image": "casual_dresses\\pexels-quang-anh-ha-nguyen-902030.jpg",
                      "price": "$21.99"
                      },
-                        {
-                        "items": "Casual dresses",
-                        "image": "casual_dresses\\pexels-владимир-васильев-5003439.jpg",
-                        "price": "$20.50"
-                        },
+
                         {
                         "items": "Casual dresses",
                         "image": "casual_dresses\\pexels-luiz-fernando-3021595.jpg",
